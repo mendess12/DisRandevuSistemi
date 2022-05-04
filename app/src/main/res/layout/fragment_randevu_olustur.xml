@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.RandevuOlustur">
+
+
+    <LinearLayout
+        android:id="@+id/randevuOlusturLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/isimEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hasta_isim"
+            android:background="@drawable/arka_plan"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="7dp"/>
+
+        <EditText
+            android:id="@+id/soyisimEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hasta_soyisim"
+            android:background="@drawable/arka_plan"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="7dp"/>
+
+        <EditText
+            android:id="@+id/tcEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hasta_kimlik_no"
+            android:background="@drawable/arka_plan"
+            android:inputType="numberPassword"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="7dp"/>
+        <EditText
+            android:id="@+id/telefonEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hasta_telefon_numarasi"
+            android:inputType="numberPassword"
+            android:background="@drawable/arka_plan"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="7dp"/>
+
+        <EditText
+            android:id="@+id/randevuNedeniEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/randevu_nedeni"
+            android:background="@drawable/arka_plan"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="7dp"/>
+
+
+        <EditText
+            android:id="@+id/randevuTarihiEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/randevu_tarihi"
+            android:background="@drawable/arka_plan"
+            android:inputType="date|datetime"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="7dp"/>
+
+        <EditText
+            android:id="@+id/odenecekUcretEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/odenecek_ucret"
+            android:background="@drawable/arka_plan"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="7dp"/>
+
+
+        <EditText
+            android:id="@+id/notEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/not"
+            android:background="@drawable/arka_plan"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="7dp"
+            android:inputType="textMultiLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/screenBackground"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kaydetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kaydet"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/arka_plan"
+                android:backgroundTint="@color/purple_700"/>
+
+            <Button
+                android:id="@+id/iptalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iptal"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/arka_plan"
+                android:backgroundTint="@color/purple_700"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

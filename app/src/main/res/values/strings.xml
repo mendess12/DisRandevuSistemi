@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Dis Randevu Sistemi</string>
+    <string name="mesaj">Sağlıklı Günler</string>
+    <string name="email">E-mail</string>
+    <string name="sifre">Şifre</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="kaydol">Kaydol</string>
+    <string name="randevularim">Randevularım</string>
+    <string name="randevu_olustur">Randevu Oluştur</string>
+    <string name="cikis_yap">Çıkış Yap</string>
+    <string name="hasta_isim">İsim</string>
+    <string name="hasta_soyisim">Soyisim</string>
+    <string name="hasta_kimlik_no">Kimlik No</string>
+    <string name="hasta_telefon_numarasi">Telefon</string>
+    <string name="randevu_nedeni">Randevu Nedeni</string>
+    <string name="odenecek_ucret">Ödenecek Ücret</string>
+    <string name="odenen_ucret">Ödenen Ücret</string>
+    <string name="kalan_ucret">Kalan Ücret : 200</string>
+    <string name="not">Not</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="iptal">İptal</string>
+    <string name="randevu_tarihi">Randevu Tarihi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

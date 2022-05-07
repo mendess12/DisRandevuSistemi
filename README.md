@@ -1,7 +1,5 @@
 # DisRandevuSistemi
 
-# DentalAppointmentSystem
-
 ### Projenin Amacı
   
     Diş hastanelerinde hangi hastanın hangi gün tedaviye geleceğini tutan bir randevu sistemi
